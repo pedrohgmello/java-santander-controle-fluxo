@@ -7,11 +7,7 @@ public class Contador {
         var scanner = new Scanner(System.in);
         int parametroUm = scanner.nextInt();
         int parametroDois = scanner.nextInt();
-        try{
-            contar(parametroUm, parametroDois);
-        } catch(ParametrosInvalidosException e){
-            System.out.println(e.getMessage());
-        }
+        contar(parametroUm, parametroDois);
 
     }
 
